@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belly Button Diversity Dashboard</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="otudataexplore.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="header-container">
+    <h1>Belly Button Diversity Dashboard</h1>
+    <p>Use the interactive charts below to explore the dataset</p>
+</div>
+
+<div class="select-container">
+    <label for="testSubject">Test Subject ID #:</label>
+    <select id="testSubject"></select>
+</div>
+
+<div id="metadataBox" class="metadata-container">
+    <h2>Demographic Info</h2>
+    <!-- Metadata key-value pairs will be displayed here -->
+</div>
+
+<div class="bar-chart-container">
+    <h2>Top 10 OTU Counts Per Individual</h2>
+    <div id="barSvg"></div>
+</div>
+
+<div class="gauge-chart-container">
+    <h2>Belly Button Washing Frequency per Individual</h2>
+    <h4>Scrubs per Week</h4>
+    <div id="gaugeSvg"></div>
+</div>
+
+<div class="bubble-chart-container">
+    <h2>OTU Counts for all OTUs per Individual</h2>
+    <div id="bubbleSvg"></div>
+</div>

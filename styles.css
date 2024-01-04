@@ -1,0 +1,42 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header-container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-container h1 {
+    margin: 0;
+}
+
+.select-container {
+    margin: 20px 0;
+}
+
+.select-container label {
+    font-weight: bold;
+}
+
+.metadata-container {
+    background-color: #eee;
+    padding: 15px;
+}
+
+.bar-chart-container,
+.gauge-chart-container,
+.bubble-chart-container {
+    margin: 20px 0;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
